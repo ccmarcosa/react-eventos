@@ -43,7 +43,7 @@ class Formulario extends Component {
 											onChange={this.obtenerDatosEventos}
 										/>
 									</div>
-
+									<div className="uk-margin" uk-margin="true">
 									<select
 										className="uk-select"
 										name="categoria"
@@ -63,8 +63,9 @@ class Formulario extends Component {
 											}}							
 										</CategoriasConsumer>
 									</select>
+									</div>
 
-								<div>
+								<div className="uk-margin" uk-margin="true">
 									<input type="submit" className="uk-button uk-button-danger"
 									value="Buscar Eventos"/>
 									
